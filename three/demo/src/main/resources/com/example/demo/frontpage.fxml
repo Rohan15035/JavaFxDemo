@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.demo.FrontPageController"
+            prefWidth="800" prefHeight="600"
+            style="-fx-background-color: linear-gradient(to bottom right, #2c3e50, #3498db);">
+
+    <VBox alignment="CENTER" spacing="20"
+          AnchorPane.topAnchor="100"
+          AnchorPane.leftAnchor="100"
+          AnchorPane.rightAnchor="100"
+          AnchorPane.bottomAnchor="100">
+
+        <Label text="Welcome to SwiftChat"
+               textFill="white"
+               style="-fx-font-size: 36px; -fx-font-weight: bold;">
+            <font>
+                <Font name="Arial Bold" size="36" />
+            </font>
+        </Label>
+
+        <Label text="Connect. Chat. Enjoy."
+               textFill="lightgray"
+               style="-fx-font-size: 18px;" />
+
+        <Button fx:id="btnLogin"
+                text="Login"
+                prefWidth="200"
+                style="-fx-font-size: 16px;" />
+
+        <Button fx:id="btnSignup"
+                text="Sign Up"
+                prefWidth="200"
+                style="-fx-font-size: 16px;" />
+
+        <Label fx:id="lblStatus"
+               text=""
+               textFill="white"
+               style="-fx-font-size: 14px;" />
+    </VBox>
+</AnchorPane>

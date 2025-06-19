@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" xmlns="http://javafx.com/javafx" fx:controller="com.example.demo.SignupController" prefWidth="400" prefHeight="300">
+    <VBox alignment="CENTER" spacing="15" AnchorPane.topAnchor="30" AnchorPane.bottomAnchor="30" AnchorPane.leftAnchor="30" AnchorPane.rightAnchor="30">
+        <Label text="Create a SwiftChat Account" style="-fx-font-size: 24px;"/>
+        <TextField fx:id="txtNewUser" promptText="New Username" />
+        <PasswordField fx:id="txtNewPass" promptText="New Password" />
+        <Button fx:id="btnRegister" text="Register" />
+        <Label fx:id="lblSignupStatus" textFill="green" />
+    </VBox>
+</AnchorPane>
